@@ -1,0 +1,49 @@
+<html>
+<head>
+  <style>
+    
+    .board {
+      border-style: 1px solid;
+      display: flex;
+      flex-direction: row;
+    }
+    .board-row {
+      display: block;
+    }
+    .board-square {
+      background: #fff;
+      border: 1px solid #999;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 34px;
+      height: 34px;
+      margin-right: -1px;
+      margin-top: -1px;
+      padding: 0;
+      text-align: center;
+      width: 34px;
+    }
+
+    .winner {
+      padding-top: .5em;
+      padding-bottom: .5em;
+      font-size: 16px;
+    }
+    
+    .reset {
+       margin-top : .5em;
+    }
+    .gamestate-list {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+  </style>
+</head>
+<body>
+  <main></main>
+  <script>
+    var app = Elm.Main.init({ node: document.querySelector('main') })
+    // you can use ports and stuff here
+  </script>
+</body>
+</html>
